@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient( rgba(43, 17, 136, 0.8), rgba(33, 12, 124, 0.8) ), url('https://sound-zero.com/wp-content/uploads/2019/09/busy-open-plan-office-bg.jpg');
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+    margin: 30px auto 0 auto;
+    text-align: center;
+}
+p{
+    color: rgb(238, 162, 20);
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+form{
+    padding: 20px;
+    background-color: rgba(132, 132, 240, 0.7) ;
+    margin: 5% 10% 10% 10%;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+fieldset{
+    border: 0;
+    padding: 10px;
+}
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=submit],
+select {
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+}
+input[type=radio],
+input[type=checkbox]{
+    border: 0px;
+    width: 10%;
+    height: 2em;
+}
+legend{
+    font-weight: bolder;
+    font-size: larger;
+}
