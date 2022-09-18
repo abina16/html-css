@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title"><i>More About You</i></h1>
+    <p id="description"><i>Thank you for taking the time to let us know more about you </i></p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label">
+                <legend>Name:</legend> 
+                <input type="text" id="name" placeholder="Enter your name..." required>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label id="email-label">
+                <legend>Email:</legend>
+                <input type="email" id="email" placeholder="Enter your Email..." required>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label id="number-label">
+                <legend>Age:</legend>
+                <input type="number" id="number" min="7" max="100" placeholder="AGE">
+            </label>
+        </fieldset>
+        <fieldset>
+            <label>
+                <legend>Which option best describes your current role?</legend> 
+                <select id="dropdown">
+                    <option>Student</option>
+                    <option>Full time job</option>
+                    <option>Full time learner</option>
+                    <option>Prefer not to say</option>
+                    <option>Others</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label>
+                <legend>Gender:</legend>
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="Prefer not to say"> Prefer not to say
+            </label>
+        </fieldset>
+        <fieldset>
+            <label>
+                <legend>How are your hobbies?</legend>
+                <input type="checkbox" value="Happy">Dance
+                <input type="checkbox" value="Sad">Singing
+                <input type="checkbox" value="Angry">Drawing
+                <input type="checkbox" value="Depressed">Listening to songs
+            </label>
+        </fieldset>
+        <fieldset>
+            <label>
+                <legend>Any comments?</legend>
+                <textarea placeholder="write your feedback..." cols="50" rows="5"></textarea>
+            </label>
+        </fieldset>
+        <fieldset>
+            <input type="submit" id="submit">
+        </fieldset>
+    </form>
+</body>
+</html>
