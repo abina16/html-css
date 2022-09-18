@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SYLE STAGE</title>
+  <link rel="stylesheet" href="trycss.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:ital@1&family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+ 
+</head>
+<body>
+  <a class="main-link skip" href="#main-content">SKIP TO MAIN CONTENT</a>
+  <header>
+    <div class="container">
+      <h1> STYLE STAGE </h1>
+      <h2>A modern CSS showcase styled by community contributions</h2>
+      <p> Maintained by <a class="p-link" href="#"> Abina Jose </a>of<a class="p-link" href="#"> MODERNCSS.DEV</a></p>
+      <a href="#star" class="main-link star" > <i class="material-icons">star</i> STAR ON GITHUB</a>
+    </div>
+  </header>
+  <aside>
+    <h1>Currently Staged Style</h1>
+    <div class="aside1">
+      <p>Title:  DeSoto</p>
+      <p>Author:  Joey Imlay</p>
+      <p>Twitter:  dentednerd</p>
+      <p> Website: joeyimlay.dev</p>  
+    </div>
+    <a href="#" class="main-link">VIEW STYLESHEET</a>
+  </aside>
+ <nav>
+    <ul>
+      <li><a href="#"> ABOUT</a> </li>
+      <li><a href="#"> GUIDELINES </a></li>
+      <li><a href="#"> CONTRIBUTE </a></li>
+      <li><a href="#"> FILES </a></li>
+      <li><a href="#"> ALL STYLES </a></li>
+      <li><a href="#">RESOURCE </a></li>
+  </nav>
+  <a name="main-content"></a>
+  <article>
+    <h1> Setting the Stage </h1>
+    <div class="common-container container1">
+      <p>In 2003, Dave Shea began a legendary project called CSS Zen Garden that provided a demonstration of "what can be accomplished through CSS-based design" until submissions stopped in 2013.</p>
+      <p>Style Stage seeks to rekindle that spirit by providing this page as the base HTML for contributors - like you! - to re-style by submitting an alternate stylesheet.</p>
+      <blockquote>
+        <h3>How it works !</h3>
+        <p>Visit the "All Styles" directory page and select a style to view. A page with identical content to this one will be presented with a new design provided from a contributed stylesheet. CSS practitioners of any skill level are invited to submit a stylesheet!</p>
+      </blockquote>
+      <p>The HTML for this page was created to be semantic, accessible, and free of nearly all other opinions. Nested sectioning elements with the class `.container` serve as additional style aids since you do not have access to alter the base HTML. </p><p> IDs are included where needed for nav anchors or accessibility, and a small number of additional classes are provided for key elements without IDs. Don't forget the `.skip-link`!</p>
+    </div>
+  </article>
+  <article>
+    <h1>Modern CSS Under the Spotlight</h1>
+    <div class="common-container container2">
+      <p>Modern CSS has increased and improved the available CSS properties and layout behaviors, and browser support is nearly in sync for most high-touch features.</p>
+      <p>Some examples of modern CSS include:</p>
+      <ul>
+        <li>Flexbox</li>
+        <li>Grid</li>
+        <li>custom variables</li>
+        <li>@supports()</li>
+        <li>gradients</li>
+        <li>animation</li>
+        <li>3D transforms</li>
+        <li>object-fit</li>
+        <li>:focus-within</li>
+        <li>calc()</li>
+        <li>min() / max() / clamp()</li>
+        <li>viewport units</li>
+        <li>scroll-(margin/padding/snap)</li>
+        <li>position: sticky</li>
+        <li>two-value display</li>
+        <li>expanded media query values</li>
+        <li>variable fonts</li>
+      </ul>
+      <p> We also collectively have an improved understanding of what it takes to make accessible experiences.</p>
+      <p>Join Style Stage as a contributor to refresh your CSS skills, and learn from others!</p>
+    </div>
+  </article>
+  <article>
+    <div class="common-container container3">
+      <h1>Guidelines</h1>
+      <p class="box">Contributing a stylesheet to Style Stage means you agree to abide by our full guidelines.</p>
+      <h2>TL;DR...</h2>
+      <p>All submissions will be autoprefixed and prepended with the CC BY-NC-SA license as well as attribution using the metadata you provide. You may use any build setup you prefer, but the final submission should be the compiled, unminified CSS. You retain the copyright to original graphics and must ensure all graphics used are appropriately licensed. All asset links, including fonts, must be absolute to external resources. Stylesheets will be saved into the Github repo, and detected changes that violate the guidelines are cause for removal.</p>
+      <p>Ensure your design is responsive, and that it passes accessible contrast (we'll be using aXe to verify). Animations should be removed via `prefers-reduced-motion`. Cutting-edge techniques should come with a fallback if needed to not severely impact the user experience. No content may be permanently hidden, and hidden items must come with an accessible viewing technique. Page load time should not exceed 3 seconds.</p>
+      <p>Most importantly - have fun and learn something new! Check out the resources for tips and inspiration.</p>
+      <div class="review-link">
+        <a href="#" class="main-link">REVIEW FULL GUIDELINES</a>
+      </div>
+     
+    </div>
+  </article>
+  <article>
+    <div class="common-container container4">
+      <h1>Contribute</h1>
+      <p>All who enjoy the craft of writing CSS are welcome to contribute!</p>
+      <p>By participating as a contributor, your work will be shared with your provided attribution as long as Style Stage is online, your stylesheet link and any asset links remain valid, and all contributor guidelines are adhered to.</p>
+      <h2>Steps to Contribute</h2>
+      <ol>
+        <li>Download the source files listed below to use as a reference to build your stylesheet, or start from the Sass template.</li>
+        <li>Host your completed stylesheet at a public URL, and ensure all asset links are absolute URLs to external resources.</li>
+        <li>Create a pull request to add your information as a unique .json file to: src/_data/styles. The schema is detailed in the repo README, and you can review the FAQ on creating a pull request.</li>
+        <li>If your contribution abides by the previously listed guidelines, your submission will be added!</li>
+      </ol>
+      <h2>SOURCE FILES</h2>
+      <div class="links-two">
+        <a class="blue-link" href="#">DOWLOAD CSS </a>
+        <a class="blue-link" href="#">DOWNLOAD HTML</a>
+        <a href="#" class="main-link yellow-link">FORKPEN CODE</a>
+      </div>
+    </div>
+  </article>
+  <footer>
+    <div class="container5">
+      <ul>
+        <li><a href="#" class="blue-link">PILGRIM</a> </li>
+        <li><a href="#" class="blue-link">BLUEPRINT</a></li>
+        <li><a href="#" class="blue-link">CRAWLING CHAOS</a></li>
+      </ul>
+      <div class="container6">
+        <h1>Featured Styles</h1>
+        <p class="view"><a class="main-link" href="#">VIEW ALL STYLES</a></p>
+      </div>
+    </div>
+    <div class="container7">
+      <div class="container7-flex">
+        <p>Created and maintained by Stephanie Eckles (@5t3ph)</p>
+        <ul>
+          <li><a class="main-link" href="#">CONTACT ON TWITTER</a></li>
+          <li><a class="main-link star" href="#"><i class="material-icons">star</i>STAR ON GITHUB</a></li>
+          <li><a class="main-link" href="#">RSS FEED</a></li>
+          <li><a class="main-link" href="#">SUSCRIBE TO UPDATES</a></li>
+        </ul>
+        <p>Crafted with semantic, accessible HTML and CSS, Style Stage is generated with 11ty and hosted on Netlify. This project uses PostCSS with autoprefixer.</p>
+        <p>Contributors retain copyright of all graphics used, and styles are available under CC BY-NC-SA</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
