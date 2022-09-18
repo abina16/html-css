@@ -1,0 +1,137 @@
+body{
+    background-image: url("imgs/prj2bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0%;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Source Code Pro', monospace;
+    display: grid;
+    color: white;
+}
+ 
+::selection{
+    background-color: gray;
+}
+.main{
+    display: grid;
+}
+.navstyle{
+    display: grid;
+}
+ 
+ul{
+    background-color: honeydew;
+    top: 0%;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    position: fixed;
+ 
+ 
+}
+ 
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+   
+}
+ 
+.skip{
+    top: 0%;
+    position: absolute;
+    right: 0%;
+    background-color: honeydew;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+nav a{
+ 
+    font-family: 'Playfair Display', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(82, 82, 156);
+}
+ 
+.container-1{
+    background-color: #444480;
+    width: 97%;
+    margin: 6% 1% 1% 1%;
+    display: grid;
+    grid-template-rows: auto auto;
+    border: 5px solid white;
+ 
+}
+ 
+.container-1 h1{
+    border: 5px solid white;
+ 
+    font-size: 200%;
+    justify-self: center;
+    padding: 5% 5%;
+    font-size: 700%;
+    margin-bottom: 4%;
+}
+ 
+h2{
+    margin: 0%;
+    padding: 0% 5% 0 5%;
+    font-size: 300%;
+ 
+    text-align-last: center;
+ 
+}
+ 
+p{
+    justify-self: center;
+    font-size: 150%;
+}
+a{
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    color: white;
+    font-weight: bold;
+ 
+}
+ 
+.star{
+    padding: 2%;
+    background-color: white;
+    font-size: 150%;
+    font-weight: bold;
+    color: #444480;
+    border-bottom: none;
+    justify-self: center;
+    text-decoration: none;
+}
+ 
+.star:hover{
+    background-color: #444480;
+    color: white;
+}
+ 
+.container-2{
+    background-color: #444480;
+ 
+    margin: 6% 1% 1% 1%;
+    display: grid;
+    grid-template-rows: auto auto;
+    border: 5px solid white;
+    padding: 3%;
+}
+.container-2 h1{
+    font-weight: bold;
+    justify-self: center;
+    font-size: 300%;
+    justify-items: flex-start;
+}
+.paradiv{
+    justify-self: flex-start;
+    background-color: white;
+    color: #444480;
+ 
+}
