@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header><h1>Content</h1></header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#How_to_Prepare_for_It?">How to Prepare for It?</a></li>
+            <li><a class="nav-link" href="#Fast_I/O_for_Competitive_Programming">Fast I/O for Competitive Programming</a></li>
+            <li><a class="nav-link" href="#Tips_and_Tricks">Tips and Tricks</a></li>
+            <li><a class="nav-link" href="#Conclusion">Conclusion</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header><h1>Introduction</h1></header>
+            <p>Competitive Programming is a mental sport which enables you to code a given problem under provided constraints. The purpose of this article is to guide every individual possessing a desire to excel in this sport. This article provides a detailed syllabus for Competitive Programming designed by industry experts to boost the preparation of the readers.</p>
+            <p>Programming… Competitive Programming… It teaches you how to think?. If you are a programmer, you might have understood the deep meaning of these lines quoted by Steve Jobs and you might have also experienced that even after shutting down your computer you keep on thinking about programming stuff or code you have written in your project. Once you enter in programming you just don’t learn how to code but you also learn the “art of thinking”, by breaking your code into smaller chunks and then using your logic-based creativity to solve a problem from different angles. Programming is fun, programming is an exercise for your brain, programming is a mental sport and when this sport is held on the internet involving sports programmer as a contestant, then it is called Competitive Programming. </p>
+        </section>
+        <section class="main-section" id="How_to_Prepare_for_It?">
+            <header><h1>How to Prepare for It?</h1></header>
+            <p>Another reason is that a lot of big companies, like Google, Facebook. Microsoft, Amazon hires through competitive programming, so if you want to get into these companies, then you really need to get your hands dirty in competitive programming. It doesn’t matter if you are a newbie programmer or you have written some code before, we will tell you some steps, approaches, and tips to prepare yourself for competitive programming. Let’s discuss that in detail. Keep in mind that you need to be proficient in the following:</p>
+            <ul>
+                <li>Any programming language syntax (Choose any but highly recommended C/C++/Java).</li>
+                <li>Time and space complexity algorithm analysis.</li>
+                <li>Ability to think about a Brute Force Solution.</li>
+                <li>Good practice of all Data Structures like Array, List, Stack, Queue, Tree, Graph, Trie etc.</li>
+            </ul>
+        </section>
+        <section class="main-section" id="Fast_I/O_for_Competitive_Programming">
+            <header><h1>Fast I/O for Competitive Programming</h1></header>
+            <p>In competitive programming, it is important to read input as fast as possible so we save valuable time. You must have seen various problem statements saying: “Warning: Large I/O data, be careful with certain languages (though most should be OK if the algorithm is well designed)”. The key for such problems is to use Faster I/O techniques. </p>
+            <p>It is often recommended to use scanf/printf instead of cin/cout for fast input and output.</p>
+            <code><p>if (condition) { statement_1; } else { statement_2; }</p></code>
+            <code><p>if (condition_1) { statement_1; } else if (condition_2) {
+                statement_2; } else if (condition_n) { statement_n; } else {
+                statement_last; }</p></code>
+            <code><p>if (condition) { statement_1_runs_if_condition_is_true;
+                statement_2_runs_if_condition_is_true; } else {
+                statement_3_runs_if_condition_is_false;
+                statement_4_runs_if_condition_is_false; }</p></code>
+            <code><p>if (x = y) { /* statements here */ }</p></code>
+            <code><p>if ((x = y)) { /* statements here */ }</p></code>
+        </section>
+        <section class="main-section" id="Tips_and_Tricks">
+            <header><h1>Tips and Tricks</h1></header>
+            <p>Competitive programming can only be improved by “PRACTICE, PRACTICE AND PRACTICE”. Try to solve as many questions you can solve on sites like practice.geeksforgeeks.org. This will enhance your mind to think more on algorithms.</p>
+            <p>Start with the beginner section, and when you feel comfortable with that, move on to higher level i.e. easy, medium, and hard and so on. Try to attempt all the questions yourself and don’t see the solution before attempting it. Don’t feel demotivated when you get wrong answers, it’s just part of the learning. The more you practice the more you learn. Just be passionate about coding and practice.</p>
+            <h2>Few Days before you begin:</h2>
+            <ol>
+                <li>Learn -Practice-Repeat -Try to learn a new concept on a daily basis. Solve questions daily, one or two if not more!! After going through a new algorithm or technique, we should immediately search for its applications and attempt problems. Like if you learn dynamic programming, try to finish up all its problems. Adapt the habit of reading which most of the youngsters don’t have nowadays.</li>
+                <li>Write before coding– Implement all algorithms yourself rather than copying from someone else. Make yourself written notes while studying these concepts. Mathematics is great area to start competitive programming.</li>
+                <li>Getting Edgy- During practice always solve that problem that is just at the edge of your knowledge i.e., you don’t exactly know how to solve the problem but you know what you should know to solve that problem. For example, you look at the problem and you can tell that it’s a simple graph problem but you do not know anything about graph.</li>
+                <li>Complexity is Complex– Do not be obsessed with lower and lower execution time. Do not waste time on over-optimizing your solution. If the solution is accepted, move on to next problem. First just get into the habit of coding daily and then worry about complexities.</li>
+                <li>Hard must come– Some people say Stick to one website for practice while others believe you must taste all bunches. Whatever you decide , slowly but surely start solving harder problems.</li>
+                <li>Target Job– If you are frequently participating in the contests which are meant for jobs then make sure to read all previous questions, algorithms and related stuff to cut short your efforts as well as selection time.You must attempt previous company questions too.</li>
+            </ol>
+        </section>
+        <section class="main-section" id="Conclusion">
+            <header><h1>Conclusion</h1></header>
+            <p> Preparation for anything is very important be it for a contest day, an exams or a project submission, which student mostly fail to do. Preparing at the last moment often fail short of the expectations. Give enough time to go through algorithms, sample problems and work upon your own strengths and weaknesses.</p>
+            <p><b> Happy Coding!! </b></p>
+        </section>
+    </main>
+</body>
+</html>
